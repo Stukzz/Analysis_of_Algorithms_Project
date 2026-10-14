@@ -21,3 +21,11 @@ WHERE mag_auto < 90`
      1.euclid_ero.perseus_nisp: 1,006,020 rows (Near-Infrared Y, J, H bands)
      2.euclid_ero.perseus_vis: 546,563 rows (Visible Ie band, higher spatial resolution)
 
+Problem Reduction & Mathematical Formulation:
+-under construction
+Asymptotic Analysis (Time & Space):
+-under construction
+Empirical Scaling Plots (Log-Log Runtime & Memory):
+-under construction
+Astrophysical Payoff (Color-Magnitude Diagram of Perseus):
+-under construction
