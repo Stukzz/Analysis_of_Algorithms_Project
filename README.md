@@ -1,9 +1,11 @@
 # Analysis_of_Algorithms_Project
 
-Motiviation,
-Description of the algorithm,
-description of data,
-references,
+Motivation: To familiarize ourselves with big data problems one such case is processing and making sense of astronomical data
+
+Description of the algorithm: Minimum Spanning Tree (MST) & Voronoi Tessellation: Construct Euclidean geometric graphs on celestial coordinates (ra, dec) to identify cosmic filamentary networks, galaxy groupings, and local environment densities within the Perseus cluster.
+
+description of data: The euclid_ero.perseus_nisp.csv file is a sample source extraction catalog from the Euclid Space Telescope’s Early Release Observations (ERO-10) targeting the Perseus Galaxy Cluster (Abell 426) with the Near-Infrared Spectrometer and Photometer (NISP)
+references
 
 Euclid_ero.perseus_nisp + euclid_ero.perseus_vis (Best for Spatial &amp; Graph Algorithms)
 
@@ -27,15 +29,5 @@ WHERE mag_auto < 90`
      1.euclid_ero.perseus_nisp: 1,006,020 rows (Near-Infrared Y, J, H bands)
      2.euclid_ero.perseus_vis: 546,563 rows (Visible Ie band, higher spatial resolution)
 
-Problem Reduction & Mathematical Formulation:
--under construction
 
-Asymptotic Analysis (Time & Space):
--under construction
-
-Empirical Scaling Plots (Log-Log Runtime & Memory):
--under construction
-
-Astrophysical Payoff (Color-Magnitude Diagram of Perseus):
--under construction
 
