@@ -5,7 +5,6 @@ Euclid_ero.perseus_nisp + euclid_ero.perseus_vis (Best for Spatial &amp; Graph A
    query using the following.
    
 Query 1 — NISP Catalog (Filter to J band or pull all 3 bands):
-
 ```SELECT number, band, alpha_j2000, delta_j2000, nest4096, htm9,
        mag_auto, magerr_auto, flux_auto, class_star, spread_model, fwhm_image
 FROM euclid_ero.perseus_nisp
