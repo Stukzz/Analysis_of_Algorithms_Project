@@ -23,9 +23,13 @@ WHERE mag_auto < 90`
 
 Problem Reduction & Mathematical Formulation:
 -under construction
+
 Asymptotic Analysis (Time & Space):
 -under construction
+
 Empirical Scaling Plots (Log-Log Runtime & Memory):
 -under construction
+
 Astrophysical Payoff (Color-Magnitude Diagram of Perseus):
 -under construction
+
