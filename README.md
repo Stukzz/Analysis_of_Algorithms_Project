@@ -2,7 +2,7 @@
 Euclid_ero.perseus_nisp + euclid_ero.perseus_vis (Best for Spatial &amp; Graph Algorithms)
 
 1. From Astro Data Lab (https://datalab.noirlab.edu/data-explorer?showTable=euclid_ero.perseus_vis)
-   query usinng
+   query using
    
    SELECT TOP N *
    FROM euclid_ero.perseus_vis
