@@ -43,4 +43,11 @@ SELECT
 FROM euclid_ero.perseus_nisp 
 WHERE mag_auto < 90;
 
+### 2. VIS Catalog Query
+SELECT 
+    number, alpha_j2000, delta_j2000, 
+    nest4096, htm9, mag_auto, magerr_auto, 
+    flux_auto, class_star, spread_model, fwhm_image 
+FROM euclid_ero.perseus_vis 
+WHERE mag_auto < 90;
 
