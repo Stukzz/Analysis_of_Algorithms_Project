@@ -32,9 +32,9 @@ The data is sourced from the **Euclid Space Telescope’s Early Release Observat
 ## 🗄️ Data Acquisition (NOIRLab Astro Data Lab)
 The raw catalog files can be retrieved directly from the [NOIRLab Astro Data Lab Data Explorer](https://datalab.noirlab.edu/data-explorer?showTable=euclid_ero.perseus_vis) using the following SQL queries. Both queries filter out sentinel error values by constraining `mag_auto < 90`.
 
-### 1. NISP Catalog Query
-*(Can be executed as-is to pull all three infrared bands, or filtered to a single band such as `WHERE band = 'J' AND mag_auto < 90`)*
 
+*(Can be executed as-is to pull all three infrared bands, or filtered to a single band such as `WHERE band = 'J' AND mag_auto < 90`)*
+1. NISP Catalog Query
 ```sql
 SELECT 
     number, band, alpha_j2000, delta_j2000, 
@@ -44,7 +44,7 @@ FROM euclid_ero.perseus_nisp
 WHERE mag_auto < 90;
 
 
-### 2. VIS Catalog Query
+2. VIS Catalog Query
 SELECT 
     number, alpha_j2000, delta_j2000, 
     nest4096, htm9, mag_auto, magerr_auto, 
