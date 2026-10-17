@@ -44,7 +44,7 @@ FROM euclid_ero.perseus_nisp
 WHERE mag_auto < 90;
 
 
-### 1. NISP Catalog Query
+### 2. VIS Catalog Query
 SELECT 
     number, alpha_j2000, delta_j2000, 
     nest4096, htm9, mag_auto, magerr_auto, 
